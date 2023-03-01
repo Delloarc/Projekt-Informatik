@@ -1,7 +1,27 @@
 * {
     font-family: sans-serif;
+    margin: 0;
 }
-h1 {
-    color: red;
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+.navbar-bg {
+    padding: 60px 40px 120px 40px;
+    background: #777 
+    url(./images/background-image.jpg) no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.header h1 {
+    color: white;
     text-align: center;
+}
+.header {
+    margin: 140px 48px 120px 48px;
 }
