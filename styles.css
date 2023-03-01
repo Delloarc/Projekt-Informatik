@@ -10,6 +10,11 @@
 .navbar-links a {
     text-decoration: none;
     color: white;
+    padding: 8px 0;
+    transition: 0.3s all ease-in-out;
+}
+.navbar-links a:hover {
+opacity: 0.7;
 }
 .navbar-bg {
     padding: 60px 40px 120px 40px;
@@ -23,5 +28,11 @@
     text-align: center;
 }
 .header {
-    margin: 140px 48px 120px 48px;
+    margin: 180px 48px 120px 48px;
+}
+.active-link {
+    border-bottom: 3px solid white;
+}
+.content {
+    padding: 80px 16vw;
 }
